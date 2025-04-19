@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+h2, h3 {
+    text-align: center;
+}
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+.logout {
+    float: right;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
